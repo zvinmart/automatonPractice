@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e5d2ef8-fcff-47fc-a599-478f2baba9cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver-win64/LICENSE.chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver-win64/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AutomationPractice.java" afterDir="false" />
+    <list default="true" id="1e5d2ef8-fcff-47fc-a599-478f2baba9cd" name="Changes" comment="initial commit + page title assertion">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomationPractice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,32 +48,52 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.AutomationPractice.verifyPageTitleIsDisplayedAndCorrect">
-    <configuration name="AutomationPractice.pictureIsDisplayed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AutomationPractice.verifyLockedOutUserError">
+    <configuration name="AutomationPractice.loginAndVerifyProductPageHeader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AutomationPractice" />
-      <option name="METHOD_NAME" value="pictureIsDisplayed" />
+      <option name="METHOD_NAME" value="loginAndVerifyProductPageHeader" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutomationPractice.titleIsDisplayed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AutomationPractice.loginWithLockedOutUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AutomationPractice" />
-      <option name="METHOD_NAME" value="titleIsDisplayed" />
+      <option name="METHOD_NAME" value="loginWithLockedOutUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutomationPractice.verifyPageTitleIsDisplayedAndCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AutomationPractice.loginWithStandardUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AutomationPractice" />
-      <option name="METHOD_NAME" value="verifyPageTitleIsDisplayedAndCorrect" />
+      <option name="METHOD_NAME" value="loginWithStandardUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutomationPractice.productPageTitleIsDisplayedAndContainsCorrectText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AutomationPractice" />
+      <option name="METHOD_NAME" value="productPageTitleIsDisplayedAndContainsCorrectText" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutomationPractice.verifyLockedOutUserError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AutomationPractice" />
+      <option name="METHOD_NAME" value="verifyLockedOutUserError" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,9 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AutomationPractice.verifyPageTitleIsDisplayedAndCorrect" />
-        <item itemvalue="JUnit.AutomationPractice.titleIsDisplayed" />
-        <item itemvalue="JUnit.AutomationPractice.pictureIsDisplayed" />
+        <item itemvalue="JUnit.AutomationPractice.verifyLockedOutUserError" />
+        <item itemvalue="JUnit.AutomationPractice.loginWithLockedOutUser" />
+        <item itemvalue="JUnit.AutomationPractice.loginAndVerifyProductPageHeader" />
+        <item itemvalue="JUnit.AutomationPractice.productPageTitleIsDisplayedAndContainsCorrectText" />
+        <item itemvalue="JUnit.AutomationPractice.loginWithStandardUser" />
       </list>
     </recent_temporary>
   </component>
@@ -105,6 +118,14 @@
       <option name="presentableId" value="Default" />
       <updated>1694441524837</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit + page title assertion">
+      <created>1694498082189</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694498082189</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,5 +141,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="initial commit + page title assertion" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit + page title assertion" />
   </component>
 </project>
